@@ -4,7 +4,7 @@ Don't like having `bin/sailfish` in your commit-msg git hook? Then use Vim-Sailf
 
 1. Remove the `bin/sailfish` line from `.git/hooks/commig-msg`.
 2. Install this plugin.
-3. `git ci`.
+3. `git commit`.
 4. Write your first line and description like normal.
 5. `:Sailfish`
 6. Profit?
