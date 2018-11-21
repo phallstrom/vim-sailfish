@@ -1,6 +1,6 @@
 function! SailFish()
   write
-  execute(":silent !`git rev-parse --show-toplevel`/bin/sailfish " . shellescape(expand("%")))
+  execute(":silent !$HOME/bin/sailfish " . shellescape(expand("%")))
   redraw!
   edit!
 endfunction
